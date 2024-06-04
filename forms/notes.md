@@ -1,1 +1,1 @@
-#Stuff I learnt from this project:
+# Stuff I learned from this project:
