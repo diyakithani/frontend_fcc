@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sandwich Form</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="topform">
+            <h1 id="title" class="title">Sandwich Time!</h1>
+            <p id="description" class="desc">We're giving out free sandwiches. Book your sandwich by filling out this form. :)</p>
+        </div>
+        <div class="form">
+            <form id="survey-form">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label id="name-label" for="name">Name:
+                        <input placeholder="John Cena" id="name" name="name" type="text" maxlength="30" minlength="1" required />
+                    </label>
+                    <br>
+                    <label id="email-label" for="email">Email:
+                        <input placeholder="youcantseeme@gmail.com" id="email" name="email" type="email" required />
+                    </label>
+                    <br>
+                    <label id="number-label" for="number">Number of sandwiches:
+                        <input id="number" name="number" min="1" max="5" type="number" placeholder="1" required />
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>All Sandwiches are Vegan :) CHOOSE ANY!</legend>
+                    <label for="dropdown">Type of Sandwich:</label>
+                    <select id="dropdown" name="sandwich">
+                        <option value="">TYPE OF SANDWICH</option>
+                        <option value="spicy_chickpea_smash">Spicy Chickpea Smash</option>
+                        <option value="classic_mediterranean">Classic Mediterranean</option>
+                        <option value="rainbow_veggie_delight">Rainbow Veggie Delight</option>
+                        <option value="creamy_avocadwich">Creamy Avocadwich</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select a Sauce:</legend>
+                    <label>
+                        <input type="radio" name="sauce" value="hummus"> Hummus
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="sauce" value="tahini"> Tahini
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="sauce" value="vegan_mayo"> Vegan Mayo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="sauce" value="mustard"> Mustard
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Drinks are free too :)</legend>
+                    <label>
+                        <input type="checkbox" name="drink" value="lemonade"> Lemonade
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="drink" value="iced_tea"> Iced Tea
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="drink" value="soda"> Soda
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Why do you like sandwiches?</legend>
+                    <label>
+                        <textarea name="reason" rows="3" cols="30" placeholder="Your reason here..."></textarea>
+                    </label>
+                </fieldset>
+                <br>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
