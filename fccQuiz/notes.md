@@ -23,3 +23,9 @@ Commonly used pseudo-elements include:
 4. ::first-letter: Targets the first letter of a block-level element. It allows you to style the first letter of text within an element, such as applying drop caps or special formatting.
 
 -------------------------------
+
+# Select and option tags
+- for a dropdown, use these tags
+- within select, you can have many options
+- required keyword if you want the user to respond compulsorily
+- value of option and input value must be same/similar to know what user selecteed 
