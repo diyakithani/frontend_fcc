@@ -61,10 +61,19 @@ a:active {
 
 ---------------------------------------------------------------------------
 
-##Scroll-Behavior 
+## Scroll-Behavior 
 
 CSS property is used to define the behavior of the scrolling action for a scrolling box when the user clicks on a link that targets an anchor within the scrollable element. It can also apply when using JavaScript to scroll an element into view.
 
 - can be set to _auto_ -> no smooth transition
 - can be set to _smooth_ -> smooth transition
+
+----------------------------------------------
+
+## Access Keys 
+The navigation accessibility can be improved by providing keyboard shortcuts.
+The accesskey attribute accepts a space-separated list of access keys.
+
+------------------------------------------------------
+
 
