@@ -30,10 +30,32 @@ Commonly used pseudo-elements include:
 - required keyword if you want the user to respond compulsorily
 - value of the option and input value must be the same/similar to know what user selected
 - link a label with the select tag using *for* and *id* attributes, similar to _label and input_
+-----------------------------------------------------------
 
 #textarea tag
 - rows and cols attribute
 - linking textarea with a label using *for* and *id* attributes
+---------------------------------------------------------------------------------------
 
 ### Button type="submit" at the end of forms
+-------------------------------------------------------------------------------------------
 ### The footer element is a container for a collection of content that is related to the page, and the address element is a container for contact information for the author of the page.
+
+--------------------------------------------------
+- nav > ul > li, a way to select all the li nested with nav and ul || nav li, is another way
+----------------------------------------------------
+
+## PSEUDO CLASSES
+- In CSS, pseudo-classes are used to define special states of an element, and several of these pseudo-classes are commonly associated with links.
+a:link {
+    /* styles for unvisited links */
+}
+a:visited {
+    /* styles for visited links */
+}
+a:hover {
+    /* styles for when the mouse hovers over the link */
+}
+a:active {
+    /* styles for when the link is clicked */
+
