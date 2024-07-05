@@ -35,4 +35,5 @@ Commonly used pseudo-elements include:
 - rows and cols attribute
 - linking textarea with a label using *for* and *id* attributes
 
-###Button type="submit" at the end of forms
+### Button type="submit" at the end of forms
+### The footer element is a container for a collection of content that is related to the page, and the address element is a container for contact information for the author of the page.
